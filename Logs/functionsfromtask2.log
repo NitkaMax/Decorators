@@ -1,0 +1,56 @@
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC5E0>, 'Артем', 'Попов', 'male'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC610>, 'Даниил', 'Климов', 'male'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Lecturer object at 0x000000792D6BC640>, 'Аллен ', 'Барри'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Lecturer object at 0x000000792D6BC640>, 'Аллен ', 'Барри'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Lecturer object at 0x000000792D6BC6A0>, 'Хэл', 'Джордан'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Lecturer object at 0x000000792D6BC6A0>, 'Хэл', 'Джордан'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC700>, 'Кларк', 'Кент'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: __init__>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC760>, 'Оливер', 'Квин'){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_hw>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC700>, <__main__.Student object at 0x000000792D6BC5E0>, 'Python-разработка для начинающих', 8.6){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_hw>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC700>, <__main__.Student object at 0x000000792D6BC5E0>, 'Python-разработка для начинающих', 9.2){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_hw>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC700>, <__main__.Student object at 0x000000792D6BC5E0>, 'Git — система контроля версий', 9.9){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_hw>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC700>, <__main__.Student object at 0x000000792D6BC610>, 'Python-разработка для начинающих', 9.4){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_hw>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC700>, <__main__.Student object at 0x000000792D6BC610>, 'Python-разработка для начинающих', 6.7){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_lecturer>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC5E0>, <__main__.Lecturer object at 0x000000792D6BC640>, 'Python-разработка для начинающих', 10){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_lecturer>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC5E0>, <__main__.Lecturer object at 0x000000792D6BC640>, 'Python-разработка для начинающих', 9.2){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_lecturer>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC5E0>, <__main__.Lecturer object at 0x000000792D6BC640>, 'Java', 8.2){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_lecturer>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC610>, <__main__.Lecturer object at 0x000000792D6BC640>, 'Python-разработка для начинающих', 7.9){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_lecturer>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC610>, <__main__.Lecturer object at 0x000000792D6BC6A0>, 'Основы Java Script', 7.25){}>>>   <<<function output: None>>>  
+28/07/2022*16:17:22  <<name_function: rate_lecturer>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC610>, <__main__.Lecturer object at 0x000000792D6BC640>, 'Java', 7.9){}>>>   <<<function output: Ошибка>>>  
+28/07/2022*16:17:22  <<name_function: __str__>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC700>,){}>>>   <<<function output: Имя: Кларк
+Фамилия: Кент>>>  
+28/07/2022*16:17:22  <<name_function: __str__>>        <<<arguments: (<__main__.Reviewer object at 0x000000792D6BC760>,){}>>>   <<<function output: Имя: Оливер
+Фамилия: Квин>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({'Python-разработка для начинающих': [10]},){}>>>   <<<function output: 10.0>>>  
+28/07/2022*16:17:22  <<name_function: __str__>>        <<<arguments: (<__main__.Lecturer object at 0x000000792D6BC640>,){}>>>   <<<function output: Имя: Аллен 
+Фамилия: Барри
+Средняя оценка: 10.0>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({},){}>>>   <<<function output: 0>>>  
+28/07/2022*16:17:22  <<name_function: __str__>>        <<<arguments: (<__main__.Lecturer object at 0x000000792D6BC6A0>,){}>>>   <<<function output: Имя: Хэл
+Фамилия: Джордан
+Средняя оценка: 0>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({'Python-разработка для начинающих': [8.6, 9.2], 'Git — система контроля версий': [9.9]},){}>>>   <<<function output: 9.233333333333333>>>  
+28/07/2022*16:17:22  <<name_function: __str__>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC5E0>,){}>>>   <<<function output: Имя: Артем
+Фамилия: Попов
+Средняя оценка: 9.233333333333333
+Курсы в процессе обучения: Python-разработка для начинающих, Git — система контроля версий, Java
+Завершенные курсы: Основы языка программирования Python
+>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({'Python-разработка для начинающих': [9.4, 6.7]},){}>>>   <<<function output: 8.05>>>  
+28/07/2022*16:17:22  <<name_function: __str__>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC610>,){}>>>   <<<function output: Имя: Даниил
+Фамилия: Климов
+Средняя оценка: 8.05
+Курсы в процессе обучения: Python-разработка для начинающих, Основы Java Script
+Завершенные курсы: Маникюр, Английский для программистов
+>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({'Python-разработка для начинающих': [10]},){}>>>   <<<function output: 10.0>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({},){}>>>   <<<function output: 0>>>  
+28/07/2022*16:17:22  <<name_function: __gt__>>        <<<arguments: (<__main__.Lecturer object at 0x000000792D6BC640>, <__main__.Lecturer object at 0x000000792D6BC6A0>){}>>>   <<<function output: True>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({'Python-разработка для начинающих': [8.6, 9.2], 'Git — система контроля версий': [9.9]},){}>>>   <<<function output: 9.233333333333333>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ({'Python-разработка для начинающих': [9.4, 6.7]},){}>>>   <<<function output: 8.05>>>  
+28/07/2022*16:17:22  <<name_function: __gt__>>        <<<arguments: (<__main__.Student object at 0x000000792D6BC5E0>, <__main__.Student object at 0x000000792D6BC610>){}>>>   <<<function output: True>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ([8.6, 9.2],){}>>>   <<<function output: 8.899999999999999>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ([9.4, 6.7],){}>>>   <<<function output: 8.05>>>  
+28/07/2022*16:17:22  <<name_function: evaluation>>        <<<arguments: ([<__main__.Student object at 0x000000792D6BC5E0>, <__main__.Student object at 0x000000792D6BC610>], 'Python-разработка для начинающих'){}>>>   <<<function output: 8.475>>>  
+28/07/2022*16:17:22  <<name_function: average_number>>        <<<arguments: ([10],){}>>>   <<<function output: 10.0>>>  
+28/07/2022*16:17:22  <<name_function: evaluation>>        <<<arguments: ([<__main__.Lecturer object at 0x000000792D6BC640>, <__main__.Lecturer object at 0x000000792D6BC6A0>], 'Python-разработка для начинающих'){}>>>   <<<function output: 10.0>>>  
