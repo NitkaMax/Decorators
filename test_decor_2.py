@@ -1,7 +1,7 @@
 from main_decor_2 import new_logger
 
 
-@new_logger('Logs/functionsfromtask2.log')
+@new_logger('Logs/log_file_2.log')
 def average_number(numbers):
     if numbers:
         if isinstance(numbers, dict):
@@ -14,7 +14,7 @@ def average_number(numbers):
     else:
         return 0
 
-@new_logger('Logs/functionsfromtask2.log')
+@new_logger('Logs/log_file_2.log')
 def evaluation(persons, course):
     res = 0
     lenth = 0
@@ -29,7 +29,7 @@ def evaluation(persons, course):
 
 class Student:
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __init__(self, name, surname, gender):
         self.name = name
         self.surname = surname
@@ -38,7 +38,7 @@ class Student:
         self.courses_in_progress = []
         self.grades = {}
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def rate_lecturer(self, lecturer, course, grade):
         if isinstance(lecturer,
                       Lecturer) and course in self.courses_in_progress and course in lecturer.courses_attached:
@@ -52,7 +52,7 @@ class Student:
         else:
             return 'Ошибка'
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __str__(self):
         info = str(f"Имя: {self.name}\n"
                    f"Фамилия: {self.surname}\n"
@@ -61,25 +61,25 @@ class Student:
                    f"Завершенные курсы: {', '.join(self.finished_courses)}\n")
         return info
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __lt__(self, other):
         return average_number(self.grades) < average_number(other.grades)
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __gt__(self, other):
         return average_number(self.grades) > average_number(other.grades)
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __le__(self, other):
         return average_number(self.grades) <= average_number(other.grades)
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __ge__(self, other):
         return average_number(self.grades) >= average_number(other.grades)
 
 
 class Mentor:
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __init__(self, name, surname):
         self.name = name
         self.surname = surname
@@ -87,38 +87,38 @@ class Mentor:
 
 
 class Lecturer(Mentor):
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __init__(self, name, surname):
         super().__init__(name, surname)
         self.grades = {}
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __str__(self):
         return f"Имя: {self.name}\nФамилия: {self.surname}\nСредняя оценка: {average_number(self.grades)}"
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __lt__(self, other):
         return average_number(self.grades) < average_number(other.grades)
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __gt__(self, other):
         return average_number(self.grades) > average_number(other.grades)
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __le__(self, other):
         return average_number(self.grades) <= average_number(other.grades)
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __ge__(self, other):
         return average_number(self.grades) >= average_number(other.grades)
 
 
 class Reviewer(Mentor):
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def __str__(self):
         return f"Имя: {self.name}\nФамилия: {self.surname}"
 
-    @new_logger('Logs/functionsfromtask2.log')
+    @new_logger('Logs/log_file_2.log')
     def rate_hw(self, student, course, grade):
         if isinstance(student, Student) and course in self.courses_attached and course in student.courses_in_progress:
             if course in student.grades:
